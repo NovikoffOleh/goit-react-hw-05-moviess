@@ -23,13 +23,19 @@
   justify-content: center;
   align-items: center;
   margin: 20px;
+  
 }
 .btn a {
   position: relative;
   width: 250px;
   height: 24px;
   display: inline-block;
-  border-radius: 20px;
+  border-radius: 10px;
+  background-color: #55504c;
+    border-color: #979696;
+    color: #fff;
+  
+
 }
 .btn a:before,
 .btn a:after {
@@ -38,11 +44,11 @@
   inset: 0;
   transition: 0.5s;
 }
-.btn a:before,
+/*.btn a:before,
 .btn a:after {
   border-radius: 20px;
   background: linear-gradient(45deg, #00ccff, #0e1538, #0e1538, #d400d4);
-}
+}*/
 .btn a:hover:before {
   inset: -3px;
 }
