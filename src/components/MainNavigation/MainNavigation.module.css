@@ -44,13 +44,9 @@
   inset: 0;
   transition: 0.5s;
 }
-/*.btn a:before,
-.btn a:after {
-  border-radius: 20px;
-  background: linear-gradient(45deg, #00ccff, #0e1538, #0e1538, #d400d4);
-}*/
+
 .btn a:hover:before {
-  inset: -3px;
+  inset: -4px;
 }
 .btn a:hover:after {
   inset: -3px;

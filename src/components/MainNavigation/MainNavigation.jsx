@@ -5,8 +5,8 @@ const MainNavigation = () => {
     isActive ? styles.activeLink : styles.link;
   return (
     <div>
-<h1 style={{ textAlign: 'center', color: '#ffff', margin: '10px 0' }}>Кіно
-        <span style={{ textAlign: 'center', color: '#f70202ea', margin: '10px 0' }}>Пошук</span></h1>
+<h1 style={{ textAlign: 'center', color: '#ffff', margin: '60px 0' }}>Кіно
+        <span style={{ textAlign: 'center', color: '#f70202ea', margin: '60px 0' }}>Пошук</span></h1>
     
     
     <nav className={styles.headerNavigation}>

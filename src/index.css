@@ -5,10 +5,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /*background-color: #3d3d3d;*/
   background-image: linear-gradient(
-      rgba(47, 48, 58, 0.6),
-      rgba(47, 48, 58, 0.6)
+      rgba(151, 151, 152, 0.6),
+      rgba(246, 246, 197, 0.594)
     ),
-    url(./images/fon-kinolenta-2.jpg);
+    url(./images/film-frame.jpg);
   background-attachment: fixed;
   padding: 20px;
 }
