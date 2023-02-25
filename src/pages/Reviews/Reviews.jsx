@@ -6,7 +6,7 @@ export default function Reviews() {
   const currentMovieId = useParams();
   const idMovie = Number(currentMovieId.movieId);
   const [reviews, setReviews] = useState([]);
-  const [error, setError] = useState(null);
+  const [, setError] = useState(null);
   useEffect(() => {
     moviesApi
       .getReviews(idMovie)

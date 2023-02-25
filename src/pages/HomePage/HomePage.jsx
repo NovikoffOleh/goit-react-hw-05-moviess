@@ -38,7 +38,7 @@ export default function HomePage() {
   };
   return (
     <>
-      <PageHeading text="Trending today" />
+      <PageHeading text="Фільми для родинного перегляду" />
       {movies.length > 0 && <MovieList movies={movies} />}
       {error && <h2>Sorry, something went wrong: {error.message}</h2>}
       {loading && (

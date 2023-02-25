@@ -1,5 +1,9 @@
 .headerNavigation {
-  display: flex;
+      display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 10px;
+  
 }
 .link {
   display: inline-block;
@@ -10,7 +14,7 @@
   font-style: 18px;
 }
 .activeLink {
-  composes: link;
+  /*composes: link;*/
   color: #2196f3;
 }
 

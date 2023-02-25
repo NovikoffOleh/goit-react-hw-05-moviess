@@ -1,5 +1,5 @@
 import MainNavigation from 'components/MainNavigation/MainNavigation';
-import styles from '../AppBar/AppBar.module.css';
+/*import styles from '../AppBar/AppBar.module.css';*/
 const AppBar = () => {
   return (
     <header>
