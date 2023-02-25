@@ -7,8 +7,8 @@
   line-height: 1.87;
   height: 50px;
   padding: 4px 38px;
-  color: #aaaaaa;
-  background-color: rgb(14, 21, 56);
+  color: #f8f5f5;
+  background-color: #55504c;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 12px;
   border: none;
@@ -19,6 +19,6 @@
 .loadMoreBtn:hover,
 .loadMoreBtn:focus {
   border: 2px solid #aaaaaa;
-  color: #aaaaaa;
-  background-color: #17181c;
+  color: #0e0d0d;
+  background-color: #ea6812;
 }

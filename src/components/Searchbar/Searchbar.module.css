@@ -4,8 +4,8 @@
   left: 80px;
 }
 .searchInput {
-  background-color: rgb(14, 21, 56);
-  color: #aaaaaa;
+  background-color: rgb(95, 95, 96);
+  color: #7e7c7c;
   font: inherit;
   padding: 10px;
   max-width: 400px;
@@ -17,10 +17,11 @@
   transition: max-width 0.5s ease-in-out 0s;
 }
 .searchInput::placeholder {
-  color: #aaaaaa;
+  color: #161616;
 }
 .searchInput:hover,
 .searchInput:focus {
+  color: #f5f1f1;
   max-width: 320px;
   transition: max-width 0.5s ease-in-out 0s;
 }
