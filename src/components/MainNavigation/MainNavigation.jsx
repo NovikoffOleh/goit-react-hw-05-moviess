@@ -5,7 +5,7 @@ const MainNavigation = () => {
     isActive ? styles.activeLink : styles.link;
   return (
     <div>
-<h1 style={{ textAlign: 'center', color: '#ffff', margin: '60px 0' }}>Кіно
+<h1 style={{ textAlign: 'center', color: '#000000', margin: '60px 0' }}>Кіно
         <span style={{ textAlign: 'center', color: '#f70202ea', margin: '60px 0' }}>Пошук</span></h1>
     
     
@@ -18,7 +18,7 @@ const MainNavigation = () => {
       </div>
       <div className={styles.btn}>
         <NavLink to="/movies" className={setActive}>
-          <span>Фільми</span>
+          <span>Ще фільми</span>
         </NavLink>
       </div>
     </nav>
