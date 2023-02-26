@@ -69,10 +69,10 @@ export default function App() {
         position="top-center"
         reverseOrder={false}
         toastOptions={{
-          duration: 1000,
-          style: {
-            background: '#363636',
-            color: '#fff',
+        duration: 1000,
+        style: {
+        background: '#363636',
+        color: '#fff',
           },
         }}
       />
